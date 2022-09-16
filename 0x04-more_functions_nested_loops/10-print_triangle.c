@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-print_triangle - prints triangle
+* print_triangle - prints triangle
 * @size: print size
 * Return: Always 0.
 */
@@ -26,7 +26,7 @@ _putchar (' ');
 }
 
 for (p = 0; p <= i; p++)
-	    {
+{
 _putchar (35);
 }
 
