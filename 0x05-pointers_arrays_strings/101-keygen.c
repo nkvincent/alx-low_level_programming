@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*/
+ */
 int main(void)
 {
 int num;
@@ -13,3 +13,5 @@ num = rand();
 printf("%i\n", num);
 return (0);
 }
+
+
