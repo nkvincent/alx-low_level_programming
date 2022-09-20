@@ -13,32 +13,34 @@ int i, count;
 int length = 0;
 
 for (i = 0; s[i]; i++)
-{
-length++;
-}
+       {
+       length++;
+       }
 
-count = length;
+       count = length;
 
-start_c = s;
-end_c = s;
-
-
-for (i = 0; i < count - 1; i++)
-{
-end_c++;
-}
+       start_c = s;
+       end_c = s;
 
 
-for (i = 0; i < count / 2; i++)
-{
+       for (i = 0; i < count - 1; i++)
+	      {
+	      end_c++;
+	      }
 
 
-c = *end_c;
-*end_c = *start_c;
-*start_c = c;      
+	      for (i = 0; i < count / 2; i++)
+		     {
 
 
-start_c++;
-end_c--;
-}
-}
+		     c = *end_c;
+		     *end_c = *start_c;
+		     *start_c = c;
+
+
+		     start_c++;
+		     end_c--;
+		     }
+		     }
+
+
