@@ -73,7 +73,7 @@ printHexes(b, start, end);
 printASCII(b, start, end);
 printf("\n");
 }
-The girl do }
+}
 else
 printf("\n");
 }
